@@ -1,0 +1,460 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.gallery {
+    padding: 20px;
+    text-align: center;
+}
+
+.gallery h2 {
+    color: #333;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    object-fit: cover;
+}
+
+.contact {
+    background-color: #f2f2f2;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.map {
+    width: 50%;
+}
+
+.opening-hours {
+    width: 40%;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    padding-bottom: 60px; /* Altura aproximada do footer */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start; /* Alinha os itens ao topo */
+}
+
+.contact-option {
+    width: 40%;
+}
+
+.contact-option a {
+    color: #e4405f; /* Cor típica do Instagram */
+    text-decoration: underline; /* Adiciona sublinhado para indicar um link */
+}
+
+
+.logo-image {
+    text-align: center;
+    margin-top: 20px; /* Adapte conforme necessário */
+}
+
+.logo-image img {
+    width: 80%; /* Ajuste o tamanho da imagem conforme necessário */
+    max-width: 400px; /* Defina um tamanho máximo para a imagem */
+    height: auto; /* Mantenha a proporção original da imagem */
+}
+
+.gallery img {
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    object-fit: cover;
+    transition: transform 0.3s; /* Adiciona uma transição suave ao tamanho da imagem */
+}
+
+.gallery img:hover {
+    transform: scale(1.2); /* Aumenta o tamanho da imagem ao passar o mouse */
+}
+
+/* Adicione esta regra ao seu arquivo CSS para aplicar a cor salmão aos elementos h2 na página de serviços */
+.services h2 {
+    color: salmon;
+}
+
+body.treatments {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.treatment-section {
+    padding: 20px;
+    text-align: center;
+}
+
+.treatment-section h2 {
+    color: #FF6347; /* Cor salmão para os títulos de seção */
+}
+
+.treatment-description {
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.treatment-section {
+    width: 80%; /* Defina a largura máxima desejada para o conteúdo da seção de serviços */
+    margin: 0 auto; /* Centraliza horizontalmente o bloco de serviços */
+    padding: 20px;
+    text-align: center;
+}
+
+.treatment-section h2 {
+    color: salmon; /* Cor salmão para os títulos de seção */
+}
+
+body.treatments {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.treatment-section {
+    width: 80%; /* Defina a largura máxima desejada para o conteúdo da seção de tratamentos */
+    margin: 0 auto; /* Centraliza horizontalmente o bloco de tratamentos */
+    padding: 20px;
+    text-align: center;
+}
+
+body.gallery-page {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.gallery-section {
+    text-align: center;
+}
+
+.image-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    padding: 20px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.image-container img:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+body.about-page {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.about-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.about-content {
+    width: 60%;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+nav ul li a:hover {
+    color: salmon; /* Cor desejada ao passar o mouse (cor salmão, por exemplo) */
+}
+
+/* Adicione as regras de estilo para o modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
